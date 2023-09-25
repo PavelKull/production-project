@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/", //куда производится сборка не очень важен так как сборка с помощью вебпак
-    "noImplicitAny": true, //не позволяет использловать переменные без типа
-    "module": "ESNext", //
-    "target": "es5", // версия в которую будет компиляция
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
     "jsx": "react-jsx",
-    "allowJs": true, //позволяет писать js
+    "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
       "*": ["./src/*"]
-    }, //для абсолютного импорта
-    "esModuleInterop": true, // позволяет работать с пакетами , которые используют common js как с обычными пкатами с помощью import (require() module.export) = common js
-    "allowSyntheticDefaultImports": true // позволяет использовать импорты без * так как изначально пакеты нод не поддеживают экспорт дефолт
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "ts-node": {
-    //добавили настройки чтобы сборка выполнилась с импортами
     "compilerOptions": {
       "module": "CommonJS"
     }
