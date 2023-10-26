@@ -8,6 +8,7 @@ import path from 'path';
 export default {
     clearMocks: true,
     testEnvironment: 'jsdom',
+<<<<<<< HEAD
     coveragePathIgnorePatterns: [
         '\\\\node_modules\\\\',
     ],
@@ -30,11 +31,34 @@ export default {
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
+=======
+    coveragePathIgnorePatterns: ['\\\\node_modules\\\\'],
+
+    moduleDirectories: ['node_modules'],
+    moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'node'],
+    rootDir: '../../',
+    modulePaths: ['<rootDir>src'],
+    testMatch: ['<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)'],
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
     moduleNameMapper: {
         '\\.s?css$': 'identity-obj-proxy',
         '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
     },
+<<<<<<< HEAD
+=======
+    // All imported modules in your tests should be mocked automatically
+    // automock: false,
+
+    // Stop running tests after `n` failures
+    // bail: 0,
+
+    // The directory where Jest should store its cached dependency information
+    // cacheDirectory: "C:\\Users\\Pavel\\AppData\\Local\\Temp\\jest",
+
+    // Automatically clear mock calls, instances and results before every test
+
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,
 
@@ -81,10 +105,13 @@ export default {
     // The maximum amount of workers used to run your tests. Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
     // maxWorkers: "50%",
 
+<<<<<<< HEAD
     // An array of directory names to be searched recursively up from the requiring module's location
 
     // An array of file extensions your modules use
 
+=======
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984
     // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
     // moduleNameMapper: {},
 

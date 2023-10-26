@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "stylelint-config-standard-scss",
   "rules": {
@@ -5,3 +6,12 @@
     "selector-class-pattern": null
   }
 }
+=======
+{
+    "extends": "stylelint-config-standard-scss",
+    "rules": {
+        "indentation": [4],
+        "selector-class-pattern": null
+    }
+}
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984

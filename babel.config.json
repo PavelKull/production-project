@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "presets": [
     "@babel/preset-env",
@@ -13,3 +14,18 @@
     "i18next-extract"
   ]
 }
+=======
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-typescript",
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ]
+    ],
+    "plugins": ["i18next-extract"]
+}
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984

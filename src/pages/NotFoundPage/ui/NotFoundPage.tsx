@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
+=======
+import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
+import { classNames } from 'shared/lib/classNames/classNames';
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984
 import cls from './NotFoundPage.module.scss';
 
 interface NotFoundPageProps {

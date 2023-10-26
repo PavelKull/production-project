@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Тестовый пример": "Test example",
   "Перевод": "Translate",
@@ -11,3 +12,13 @@
   "Главная": "Main",
   "О сайте": "About us"
 }
+=======
+{
+    "Тестовый пример": "Test example",
+    "Перевод": "Translate",
+    "Язык": "English",
+    "Страница не найдена": "Page not found",
+    "Произошла непредвиденная ошибка": "An unexpected error occurred",
+    "Обновить страницу": "Refresh page"
+}
+>>>>>>> 19dff3394723decf3e4c408c0514b24d70abd984
